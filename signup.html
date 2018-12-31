@@ -3,6 +3,8 @@
 
    <head>
       <title>SignUp Form</title>
+      <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+      <meta content="utf-8" http-equiv="encoding">
       <style>
       	body{margin: 0;
     		padding: 0;
@@ -152,20 +154,20 @@
         	<form>
                 <div id = "inp">
                     <div class="dont">
-                        <input type="text" name="GroupName" required><br>
+                        <input type="text" name="GroupName" id ="groupName" required><br>
                         <label for="GroupName">Group Name</label>
                     </div>
                     <div class = "dont">
                         <label for="ID">ThingSpeak ID</label>
-                        <input type="text" name = "ID" required><br>
+                        <input type="text" name = "ID" id ="ThingSpeakID" required><br>
                     </div>
                     <div class="dont">
                         <label for="Password">Password</label>
-                        <input type="password" name="Password" required>
+                        <input type="password" name="Password" id ="password" required>
                     </div>
                     <div class="dont">
                         <label for="MemberName">Member Name</label>
-                        <input type="text" name="MemberName" required><br>
+                        <input type="text" name="MemberName"  id="memberName" required><br>
                     </div>
                 </div>
                     <input type = "button" name = "ADD" value = "Add another member" id = "btn"/>
